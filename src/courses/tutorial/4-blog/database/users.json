@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "fullName": "Elon tog'a",
+    "phoneNumber": "+998901234567",
+    "bio": "this is Elon Musk",
+    "username": "elonmusk",
+    "photo": "32ec86c5f5374147f8b47844cbb96fc4_1690261279633.png",
+    "createdAt": "2023-07-25T05:01:19.634Z"
+  },
+  {
+    "id": 2,
+    "fullName": "Elon tog'a",
+    "phoneNumber": "+998901234565",
+    "bio": "this is Elon Musk",
+    "username": "elonmusk_unofficial",
+    "photo": "32ec86c5f5374147f8b47844cbb96fc4_1690261318449.png",
+    "createdAt": "2023-07-25T05:01:58.450Z"
+  },
+  {
+    "id": 3,
+    "fullName": "Elon tog'a",
+    "phoneNumber": "+998901234566",
+    "bio": "this is Elon Musk",
+    "username": "elonmusk_unofficial1",
+    "photo": "44e15599a89b0ebf8259471bf2fa7824_1690261384180.png",
+    "createdAt": "2023-07-25T05:03:04.182Z"
+  },
+  {
+    "id": 4,
+    "fullName": "Dance",
+    "phoneNumber": "This is learned dancing",
+    "bio": "Zuckerberg",
+    "username": "Ruxsora",
+    "photo": "5e05f21b29fd8f2b54429b6a50f0434e_1690302274915.jpg",
+    "createdAt": "2023-07-25T16:24:34.916Z"
+  },
+  {
+    "id": 5,
+    "fullName": "james adams",
+    "phoneNumber": "01072772282",
+    "bio": "this james",
+    "username": "james",
+    "photo": "c182fbc237aac8ac8037e3eb6fa03283_1693008268689.JPG",
+    "createdAt": "2023-08-26T00:04:28.690Z"
+  }
+]

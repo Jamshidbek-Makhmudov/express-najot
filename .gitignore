@@ -1,0 +1,42 @@
+# Dependency directories
+/node_modules
+
+# # Build artifacts
+# /dist
+# /build
+
+# # Environment files
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
+
+# # Log files
+# *.log
+
+# # Editor/IDE specific files
+# .vscode/
+# .idea/
+
+# # Compiled JavaScript files
+# *.js
+# *.js.map
+
+# # Compiled TypeScript files
+# *.ts
+# *.d.ts
+# *.js
+# *.js.map
+
+# # Cache directories
+# /.cache
+
+# # Temporary files
+# *.swp
+# *.swo
+# .DS_Store
+
+# # Dependency lock files
+# yarn.lock
+# package-lock.json

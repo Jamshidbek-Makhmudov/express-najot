@@ -1,4 +1,8 @@
 //expressga kirish 1- dars server kotarish va req methodlari
+
+//formula app.get(router,contoller)
+
+
 const express = require('express');
 const app = express();
 const port = 4000;

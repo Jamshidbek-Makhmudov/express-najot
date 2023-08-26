@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Elon tog'a",
+    "username": "elon",
+    "description": "this is Elon Musk",
+    "photo": "32ec86c5f5374147f8b47844cbb96fc4_1690262688753.png",
+    "owner": 1
+  },
+  {
+    "id": 2,
+    "name": "Zuckerberg",
+    "username": "zuck",
+    "description": "this is Elon Musk",
+    "photo": "32ec86c5f5374147f8b47844cbb96fc4_1690263229280.png",
+    "owner": 1
+  },
+  {
+    "id": 3,
+    "name": "james",
+    "username": "tommy",
+    "description": "this is Elon Musk",
+    "photo": "e91a2af323f955583b0bb97a342548af_1693009011569.JPG",
+    "owner": "1"
+  }
+]
