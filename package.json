@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node src/courses/tutorial/6-token/src/app.js",
-		"dev": "nodemon src/courses/tutorial/6-token/src/app.js"
+		"start": "node src/app.js",
+		"dev": "nodemon src/app.js"
 	},
 	"keywords": [],
 	"author": "Jamshid Makhmudov",
