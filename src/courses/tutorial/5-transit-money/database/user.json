@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "username": "Wunderkind",
+    "password": "$2b$12$DyPeXwE5idaljAk7EoDxyu1HuxW3TS9xkZbYTOAWVOl758KPmm9ua",
+    "money": 110000
+  },
+  {
+    "id": 2,
+    "username": "snow",
+    "password": "$2b$12$UqkzhQMp5qBife8vUQuTCuHqPXFEtguTrIFzSSjvF/OByNNEwFLfm",
+    "money": 120000
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "firstName": "Abdulla",
+    "lastName": "Avloniy",
+    "birthDate": "1878-08-11T19:22:49.000Z",
+    "deadDate": "1934-09-24T18:00:00.000Z",
+    "bio": "Абдулла́ Авлони́ — известный узбекский писатель, писавший для детей, драматург, просветитель и педагог, много сделавший для развития узбекской школы современного типа",
+    "photo": "5fb488c7-f27c-413d-9a02-6fba92ef011b.png"
+  },
+  {
+    "id": 2,
+    "firstName": "O'tkir",
+    "lastName": "Hoshimov",
+    "birthDate": "1941-08-05T19:00:00.000Z",
+    "deadDate": "2013-05-24T19:00:00.000Z",
+    "bio": "Oʻtkir Hoshimov 1941 yil Toshkent viloyatining Zangiota (hozirgi Chilonzor) tumanidagi Doʻmbiravot mavzeida tugʻildi. Oʻ. Hoshimov mehnat faoliyatini erta boshladi. Toshkent Davlat universiteti (hozirgi Oʻzbekiston Milliy universiteti)ning jurnalistika kulliyotida oʻqish bilan baravar gazeta tahririyatida ishladi. 1959 yildan 1963 yilgacha “Temiryoʻlchi”, “Qizil Oʻzbekiston”, “Transportniy rabochiy” gazetalarida xat tashuvchi, mussaxhih, tarjimon boʻlib ishladi. Soʻng “Toshkent haqiqati” gazetasida adabiy xodim (1963–1966), “Toshkent oqshomi” gazetasida boʻlim mudiri (1966–1982), Gʻ. Gʻulom nomidagi Adabiyot va sanʼat nashriyotida bosh muharrir oʻrinbosari (1982–1985) boʻldi. 1985–1995 yillarda “Sharq yulduzi” jurnaliga bosh muharrirlik qildi. 1995 yildan 2005 yilgacha Oʻzbekiston Respublikasi Oliy Majlisining Matbuot va axborot qoʻmitasi raisi lavozimida ishladi. 2005 yildan “Teatr“ jurnalida bosh muharrir boʻlib ishladi.",
+    "photo": "e480b808-4c43-44c6-b381-d27f4e584372.png"
+  }
+]

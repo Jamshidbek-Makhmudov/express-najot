@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "firstName": "UPD",
+    "lastName": "UPD",
+    "phoneNumber": "+998900000000",
+    "password": "$2b$12$dPrEyogzn8x2K6EEGl50POPPtnZuKCtmVQ29f1EwvCMtzZtwrWkJO",
+    "email": "toshmat001@gmail.com",
+    "photo": "a9c78d26-683b-4dab-9f12-390184eb617c.png"
+  },
+  {
+    "id": 2,
+    "firstName": "Eshmat",
+    "lastName": "Toshmatov",
+    "phoneNumber": "+998901234567",
+    "password": "$2b$12$aw8M3Ye0fFrkranXAZcFG.DpmKsaSiv8ku4V.ysvLW702EwLgfm8K",
+    "email": "eshmat777@gmail.com",
+    "photo": null
+  }
+]

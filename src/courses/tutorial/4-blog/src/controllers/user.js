@@ -1,6 +1,9 @@
 const Io = require('../utils/Io');
 const path = require('path'); //img ni .jgp sini ovolish uchun chqarildi
 
+//
+const { v4: uuid } = require('uuid'); //v4 ozi id yasab beradi. : uuid esa qayta nomlab oldik
+
 const User = require('../models/User');
 const { get } = require('../utils/get'); //for read files
 
@@ -20,6 +23,7 @@ const createUser = async (req, res) => {
 	if (findUser || findChannel) return res.status(400).json({ message: 'Already exists' });
 
 	const mimetype = path.extname(photo.name); //.jpg
+	//const imageName = uuid() + mimetype;
 	const imageName = photo.md5 + '_' + Date.now() + mimetype; //unique id name for image
 	photo.mv(`${process.cwd()}/uploads/${imageName}`); //save image to server
 
