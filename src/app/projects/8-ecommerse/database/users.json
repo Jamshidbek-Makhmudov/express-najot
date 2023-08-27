@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "firstName": "Kamol",
+    "lastName": "Odilov",
+    "phoneNumber": "+998901234567",
+    "password": "$2b$12$UqxWjPp/Xuxy5InAbRBw/ujg/x0NX7su0KYRZYRrylFU2qwEanQdu",
+    "isAdmin": false
+  },
+  {
+    "id": 2,
+    "firstName": "Jamol",
+    "lastName": "Davlatov",
+    "phoneNumber": "+998901234568",
+    "password": "$2b$12$oNa0P5/JP54Vwvl0b..7/u6vzI1ZvpFF359EWglkFRC/9r8E35Eh2",
+    "isAdmin": true
+  },
+  {
+    "id": 3,
+    "firstName": "Jamshid",
+    "lastName": "Makhmudov",
+    "phoneNumber": "+998905553322",
+    "password": "$2b$12$39AsdsAL.cED60c4/LRk/edWhDsyCXGMwaMK5VTIwqypifuUHwYri",
+    "isAdmin": false
+  }
+]

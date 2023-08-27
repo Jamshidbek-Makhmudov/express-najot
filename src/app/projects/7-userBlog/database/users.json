@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "lastname": "makhmudova",
+    "email": "safiya@mail.ru",
+    "password": "$2b$12$sIikL9hHJ2iBu5QMgGyHuuoOIUjZMpuMfDtH.uJ6tMaby8SPiOHqq"
+  },
+  {
+    "id": 2,
+    "lastname": "makhmudova",
+    "email": "John@mail.ru",
+    "password": "$2b$12$AWjv8WHpRVfNJNRVjsNpsO73j6rFvFAk5ofHFWeEkLBFmkVDFyCz6"
+  },
+  {
+    "id": 3,
+    "lastname": "Doe",
+    "email": "john@mail.ru",
+    "password": "$2b$12$4acrEMg0Pz1.hJOlmIzLe.xuNWveAbSZ8enjtBIXvPL0kBPHKsAea"
+  },
+  {
+    "id": 4,
+    "firstname": "MIck",
+    "lastname": "Smith",
+    "email": "mack@mail.ru",
+    "password": "$2b$12$WHkTetpJ2bLjvbOcAP7zA..hEayjUk1I4rkvCUSmlcpz61BNz03pa"
+  },
+  {
+    "id": 5,
+    "firstname": "Sue",
+    "lastname": "Smith",
+    "email": "Sue@mail.ru",
+    "password": "$2b$12$Q2cCO/5MwYGXiTjInr9ugOSlITRnd8Xd6X9yJoVwbFGL4AGAuru5u"
+  },
+  {
+    "id": 6,
+    "firstname": "Sues",
+    "lastname": "Smith",
+    "email": "Suse@mail.ru",
+    "password": "$2b$12$D9fa3oqBYF2u.2Hs5FS43.kHtZdc/74BD/9vt4wJLTYei.EBDWoLm"
+  },
+  {
+    "id": 7,
+    "firstname": "Safiya",
+    "lastname": "Smith",
+    "email": "Safiya@mail.ru",
+    "password": "$2b$12$Us5J3cX9p6VP599NM4usvOJBr5ZAeFDiMuIIqglGfOxP9oYFEPeIq"
+  }
+]

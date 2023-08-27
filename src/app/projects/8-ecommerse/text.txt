@@ -1,0 +1,31 @@
+-- Online magazin
+
+Login, register, admin, cart, favourites, order
+
+-- auth
+  --login - POST
+  --register - POST
+
+-- users
+  -- all - GET -- admin
+
+-- product
+  -- CREATE - POST -- admin
+  -- all - GET
+  -- EDIT - PUT -- admin
+  -- DELETE -- admin
+  -- GET ONE
+
+-- cart
+  -- add - POST
+  -- getAll - GET
+  -- delete - DELETE
+
+-- favourites
+  -- add - POST
+  -- getAll - GET
+  -- delete - DELETE
+
+-- order
+  -- add - POST
+  -- getAll - GET -- by role

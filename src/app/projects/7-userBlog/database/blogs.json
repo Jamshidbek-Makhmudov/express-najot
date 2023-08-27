@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Sweets",
+    "view": 7,
+    "photo": "5d49f885-6b60-4514-93a2-7138edc4633d.jpg",
+    "description": "There are big sweets",
+    "owner": 1,
+    "createdAt": "2023-07-29T14:12:32.794Z"
+  },
+  {
+    "id": 2,
+    "title": "Fruits",
+    "view": 4,
+    "photo": "ffd31dd9-dc71-46af-9569-e660fbcf8e8d.jpg",
+    "description": "There are a lot of fruits",
+    "owner": "2",
+    "createdAt": "2023-07-29T16:09:27.257Z"
+  }
+]
