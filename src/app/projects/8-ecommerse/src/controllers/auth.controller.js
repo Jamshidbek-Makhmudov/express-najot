@@ -34,9 +34,14 @@ const login = async (req, res) => {
 		const compare = await bcrypt.compare(password, user.password);
 		if (!compare) return res.status(403).json({ message: 'Incorrect password' });
 
-		const token = jwt.sign({ id: user.id });
+		//const token = jwt.sign({ id: user.id });
 
-		res.status(201).json({ message: 'Success', data: token });
+		const token = jwt.sign({ id: user.id });
+		res.cookie('token', token, {
+			maxAge: 3600 * 1000,
+		});
+
+		res.status(201).json({ message: 'Success', data: token }); //shunda data:token ni ochirib yuborihs kerak
 	} catch (error) {
 		res.status(500).json({ message: 'INTERNAL SERVER ERROR' });
 	}
@@ -79,9 +84,13 @@ const register = async (req, res) => {
 
 		await Users.write(data);
 
-		const token = jwt.sign({ id: newUser.id });
+		//const token = jwt.sign({ id: newUser.id });
+		const token = jwt.sign({ id: user.id });
+		res.cookie('token', token, {
+			maxAge: 3600 * 1000,
+		});
 
-		res.status(201).json({ message: 'Success', data: token });
+		res.status(201).json({ message: 'Success', data: token }); //bu yerda ham data:token ni ochirib yuborish kerak
 	} catch (error) {
 		res.status(500).json({ message: 'INTERNAL SERVER ERROR' });
 	}

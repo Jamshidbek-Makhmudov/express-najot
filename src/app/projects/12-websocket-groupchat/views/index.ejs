@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+	.form {
+		display: flex;
+		justify-content: center;
+	}
+</style>
+
+<body>
+	<form id="join">
+		<label for="form">join group</label>
+		<input type="text" name="" id="name">
+		<input type="text" name="" id="text">
+		<select id="select"></select>
+		<input type="submit" value="Join">
+		<hr>
+	</form>
+	<form id="create">
+		<label for="form">create group</label>
+		<input type="text" name="" id="group-name" placeholder="group-name" required value="">
+		<input type="text" name="" id="author-name" placeholder="author-name" required>
+		<select id="select"></select>
+		<input type="submit" value="Create">
+
+	</form>
+	<hr>
+	<!-- <form id="join">
+		<label for="form">message</label>
+		<input type="text" name="" id="message" placeholder="message">
+
+		<select id="select"></select>
+
+
+	</form> -->
+
+	<!-- <a href="/view/message.ejs">Message</a> -->
+</body>
+
+<script type="module">
+	import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";
+	const socket = io();
+
+	const createFrom = document.getElementById("create");
+	const JoinForm = document.getElementById("join");
+	const groupName = document.getElementById("group-name ");
+	const authorName = document.getElementById("author-name ");
+	const select = document.getElementById("select");
+	const select2 = document.getElementById("selec2");
+	const name = document.getElementById("name");
+	const text = document.getElementById("text");
+	//
+
+
+
+
+	createFrom.addEventListener("submit", (e) => {
+		e.preventDefault();
+
+		socket.emit("new-group", {
+			name: groupName.value,
+			author: authorName.value,
+
+		});
+
+		groupName.value = "";
+		authorName.value = "";
+
+	});
+
+	//
+
+
+	socket.on("groups", ({ groups }) => {
+		select.innerHTML = "";
+
+		groups.forEach((group) => {
+			const option = document.createElement("option");
+
+			option.textContent = group.name;
+
+			option.value = group.name;
+
+			//select.append(option);
+			select.forEach(s => {
+				s.append(option);
+			});
+		});
+
+	});
+
+	//good
+
+
+
+	JoinForm.addEventListener("submit", (e) => {
+		e.preventDefault();
+		socket.emit("join-group", {
+			name: name.value,
+			group: select.value,
+			message: text.value,
+
+
+
+		});
+		name.value = "";
+		// select.value = "";
+
+	});
+
+	//
+
+
+	//good
+	socket.on("message", ({ message }) => {
+		console.log(message);
+
+	})
+</script>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <form id="Create">
+        <label for="form">Create</label>
+        <input type="text" id="nameC" placeholder="name">
+        <input type="text" id="groupC" placeholder="group">
+        <select id="select"></select>
+        <input type="submit" value="Send" id="submit">
+        <hr>
+    </form>
+    <form id="Join">
+        <label for="form">Message</label>
+        <input type="text" id="nameJ" placeholder="name">
+        <input type="text" id="message" placeholder="message">
+        <select id="select2"></select>
+        <input type="submit" value="Join" id="submit">
+
+    </form>
+    <a href="/view/message.ejs">Message</a>
+</body>
+
+<script type="module">
+    import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";
+    const socket = io();
+
+    const createFrom = document.getElementById("Create");
+    const JoinForm = document.getElementById("Join");
+    const nameC = document.getElementById("nameC");
+    const groupC = document.getElementById("groupC");
+    const select = document.getElementById("select");
+    const nameJ = document.getElementById("nameJ");
+    const message = document.getElementById("message");
+    const select2 = document.getElementById("select2");
+
+
+    createFrom.addEventListener("submit", (e) => {
+        e.preventDefault();
+        socket.emit("new-group", {
+            name: nameC.value,
+            group: groupC.value
+
+        });
+        console.log(nameC.value, groupC.value);
+        nameC.value = "";
+        groupC.value = "";
+
+    });
+
+    JoinForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        socket.emit("join-group", {
+            name: nameJ.value,
+            group: select2.value,
+            message: message.value
+
+        });
+        nameJ.value = "";
+        message.value = "";
+    });
+
+    socket.on("message", ({ message }) => {
+        console.log(message);
+    })
+
+
+</script>
+
+</html>

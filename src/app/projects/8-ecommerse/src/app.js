@@ -6,6 +6,7 @@
 const express = require('express');
 const config = require('config');
 const fileUpload = require('express-fileupload');
+const cookie = require('cookie-parser'); //cookiega saqlash
 
 const routes = require('./routes');
 
@@ -15,6 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(fileUpload());
 app.use(express.static(process.cwd() + '/uploads'));
+app.use(cookie()); //cookiega saqlash
 
 app.use('/api', routes);
 

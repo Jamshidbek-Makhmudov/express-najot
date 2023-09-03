@@ -2,22 +2,22 @@
 /node_modules
 
 # # Build artifacts
-# /dist
-# /build
+ /dist
+ /build
 
 # # Environment files
-# .env
-# .env.local
-# .env.development.local
-# .env.test.local
-# .env.production.local
+.env
+ .env.local
+ .env.development.local
+.env.test.local
+.env.production.local
 
 # # Log files
 # *.log
 
 # # Editor/IDE specific files
-# .vscode/
-# .idea/
+ .vscode/
+ .idea/
 
 # # Compiled JavaScript files
 # *.js
@@ -30,12 +30,12 @@
 # *.js.map
 
 # # Cache directories
-# /.cache
+ /.cache
 
 # # Temporary files
 # *.swp
 # *.swo
-# .DS_Store
+ .DS_Store
 
 # # Dependency lock files
 # yarn.lock

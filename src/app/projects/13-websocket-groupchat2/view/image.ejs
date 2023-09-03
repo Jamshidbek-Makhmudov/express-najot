@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FILE</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="photo" id="">
+        <input type="submit" value="Send">
+    </form>
+    <hr>
+    <div></div>
+</body>
+<script type="module">
+    import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";
+
+    const socket = io();
+    const div = document.querySelector("div")
+
+    socket.on("file", (data)=>{
+        div.innerHTML = "";
+        data.data.files.forEach(file=>{
+            const img = document.createElement("img");
+            img.setAttribute("src", `/${file}`);
+            div.append(img)
+        })
+    })
+</script>
+</html>
