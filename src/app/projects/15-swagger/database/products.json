@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "photo": "88e80786-5554-4008-89a6-661b9e618fd5.jpg",
+    "title": "Bu Ichi qizil Tarvuz",
+    "description": "Tarvuz — qovoqdoshlar oilasiga mansub gulli oʻsimlik turi.Uning butun dunyo boʻylab 1000 dan ortiq navi bor. Tarvuz butun dunyo boʻylab tropikdan moʻtadil mintaqalargacha boʻlgan qulay iqlim sharoitida oʻzining katta yeyiladigan mevasi uchun oʻstiriladi, bu qattiq qobigʻi va ichki boʻlinmalari boʻlmagan rezavor meva boʻlib, botanikada „pepo“ deb ataladi. ",
+    "sell": 15000,
+    "count": 120,
+    "buy": 10000
+  },
+  {
+    "id": 2,
+    "photo": "2cea8044-345e-4d3b-a267-8deb62f09a61.jpg",
+    "title": "Bu Qovun",
+    "description": "Tarvuz — qovoqdoshlar oilasiga mansub gulli oʻsimlik turi.Uning butun dunyo boʻylab 1000 dan ortiq navi bor. Tarvuz butun dunyo boʻylab tropikdan moʻtadil mintaqalargacha boʻlgan qulay iqlim sharoitida oʻzining katta yeyiladigan mevasi uchun oʻstiriladi, bu qattiq qobigʻi va ichki boʻlinmalari boʻlmagan rezavor meva boʻlib, botanikada „pepo“ deb ataladi. ",
+    "sell": 15000,
+    "count": 100,
+    "buy": 10000
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "username": "wunderkind",
+    "password": "$2b$12$GiLHb8R/JVSobnQWo1DRiOibaQRiTBqutj82MocPtvGWUo7rboxX2",
+    "status": true
+  },
+  {
+    "id": 2,
+    "username": "John",
+    "password": "$2b$12$kw/x8wJy9i/jg0//FVipleP3EahNilCHNZS7t3dEk8waG8rgoDGPq",
+    "status": false
+  },
+  {
+    "id": 3,
+    "username": "Sara",
+    "password": "$2b$12$MHcHUJmM5RDHuSpEDMxD5.ZMLYC3aviE1BcFNzMPkR3nk3TNZgJjW",
+    "status": false
+  },
+  {
+    "id": 4,
+    "username": "Wunderkind",
+    "password": "$2b$12$tEUL.eFjLo8qmeKbOLwAh.QVcp4ALsNJu5txuRbMoCyu3GIa.CHk6",
+    "status": false
+  },
+  {
+    "id": 5,
+    "username": "aaa",
+    "password": "$2b$12$s5tIK3otRsPCBH6/HStzauzv0sqBZ.ydCosVWIpw7dCzz5dwmbS9y",
+    "status": false
+  },
+  {
+    "id": 6,
+    "username": "www",
+    "password": "$2b$12$aQ7c9.S33hWuI62.3x1.b.UibGQivZk0UhaQcsfndn9QhtTiKlQFi",
+    "status": false
+  }
+]

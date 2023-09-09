@@ -1,0 +1,22 @@
+[
+  {
+    "id": "92f123f7-5a70-458c-af01-0d5e973a98e1",
+    "firstName": "Jamshid",
+    "lastName": "Makhmudov",
+    "userName": "james",
+    "password": "$2b$12$Q5hKvbrduy3VCAmgMr4Shel2zGvvCtRuIEAxZkYLsu98OeXK2xW.2",
+    "photo": "b2b83ca6-cf58-4c8a-a14d-6e55d2b44ca6.png",
+    "age": "29",
+    "isAdmin": false
+  },
+  {
+    "id": "58988627-52aa-4ad3-b578-23945e6eef26",
+    "firstName": "Jamshid",
+    "lastName": "Makhmudov",
+    "userName": "jamshid",
+    "password": "$2b$12$OGkFvjQmd1.NosiTIehX0uFpIlFRZIeT1ji2EhJ4FASNunoyDM8jG",
+    "photo": "f7aa17ae-1a1d-433d-a02b-8a772aac0a67.png",
+    "age": "29",
+    "isAdmin": false
+  }
+]

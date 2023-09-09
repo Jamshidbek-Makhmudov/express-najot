@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "name": "Cars",
+    "photo": "1c6a271b-c751-432b-af52-155bcd3820e7.jpg",
+    "description": "awesome"
+  },
+  {
+    "id": 3,
+    "name": "Sara",
+    "description": "Hello Service",
+    "photo": "817a5ebc-076c-4c05-bc08-36cb49256095.jpg"
+  },
+  {
+    "id": 4,
+    "name": "MIcke",
+    "description": "cooker",
+    "photo": "e7932811-50bd-4727-9e85-d1f622fdb72e.jpg"
+  }
+]
