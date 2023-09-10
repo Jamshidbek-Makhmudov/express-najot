@@ -1,0 +1,9 @@
+\l -history of created db;
+\q -quit;
+\c -dbname;  connect to db;
+\dt-to see the created table
+\d-to see the created table {farqi sequence mavjud}
+\d tablename;  -tablni dalnilarni korish
+\! clear  -to clear
+
+\i ~/Downloads/users.sql    to add from existing file
