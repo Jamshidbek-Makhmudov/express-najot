@@ -7,3 +7,8 @@
 \! clear  -to clear
 
 \i ~/Downloads/users.sql    to add from existing file
+
+psql -U bxeyqqpr -d bxeyqqpr -h tiny.db.elephantsql.com    remote hostga ulanish
+
+
+
