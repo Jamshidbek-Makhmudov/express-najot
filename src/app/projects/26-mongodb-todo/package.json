@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  },
+  "name": "15",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

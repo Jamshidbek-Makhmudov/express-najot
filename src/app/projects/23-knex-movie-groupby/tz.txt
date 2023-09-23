@@ -1,0 +1,25 @@
+-- Kino sotib oladigan sayt
+
+
+- Kinolar qo'shish
+- Hamma kinolarni ko'rishi
+- Kino sotib olish
+- Filtrlar
+- Top Reytings
+- Premyera
+
+
+
+-- Admin
+  -- Kinolarni ustida amallar
+  -- Userlarni ustida amallar
+  -- Ko'ra oladi statistikalar
+
+-- Client
+  -- Kinolarni ko'ra olish
+  -- Izlash
+  -- Sotib olish
+  -- Filtrlash
+  -- Profile
+
+
