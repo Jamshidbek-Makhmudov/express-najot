@@ -1,0 +1,11 @@
+{
+  "port": 5000,
+  "dbUrl": "postgres://postgres:1234@localhost:5432/review",
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "user": "fortestlesson1@gmail.com",
+    "password": "viflrrcyzsybcvzx"
+  },
+  "jwtSecret": "rfgh345t345t#$%R#"
+}
