@@ -1,7 +1,7 @@
 const {Bot, Keyboard, InputFile} = require("grammy");
 const geodist = require("geodist")
 
-const bot = new Bot("6489148420:AAFQqX9PDHCoD_vq6J4YGMwIHjuEX995uYI")
+const bot = new Bot(/** " your telegrsm bot link"*/)
 
 bot.command("start", async (ctx)=>{
     await ctx.reply(
